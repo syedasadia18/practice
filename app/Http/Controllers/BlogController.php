@@ -14,7 +14,7 @@ class BlogController extends Controller
         //$blogs = Blog::all(); //select * from Blogs
 
         //for pagiantion
-        $blogs = Blog::simplePaginate(1);
+        // $blogs = Blog::simplePaginate(1);
 
         $blogsecond = Blog::paginate(1);
 

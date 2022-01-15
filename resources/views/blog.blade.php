@@ -40,8 +40,8 @@
                 </div>
             </div>
             @endforeach
-
-            {{$blogs->links()}}
+            <!-- 
+            {{$blogs->links()}} -->
 
 
 
